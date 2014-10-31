@@ -89,3 +89,18 @@ node default {
     target => $boxen::config::repodir
   }
 }
+
+
+
+
+include firefox
+include java
+
+class { 'intellij':
+  edition => 'ultimate'
+}
+
+# Eclipse for JEE Developers
+class { 'eclipse::jee':
+  version => 'SR2'
+}

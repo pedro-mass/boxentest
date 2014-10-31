@@ -9,6 +9,16 @@ GITHUBTARBALL
     dnsmasq (2.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-eclipse
+  specs:
+    eclipse (2.4.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-firefox
+  specs:
+    firefox (1.2.3)
+
+GITHUBTARBALL
   remote: boxen/puppet-foreman
   specs:
     foreman (1.2.0)
@@ -39,14 +49,19 @@ GITHUBTARBALL
     hub (1.3.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-intellij
+  specs:
+    intellij (1.5.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-java
+  specs:
+    java (1.7.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-nginx
   specs:
     nginx (1.4.3)
-
-GITHUBTARBALL
-  remote: boxen/puppet-nodejs
-  specs:
-    nodejs (3.8.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-openssl
@@ -67,11 +82,6 @@ GITHUBTARBALL
   remote: boxen/puppet-repository
   specs:
     repository (2.3.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-ruby
-  specs:
-    ruby (8.1.4)
 
 GITHUBTARBALL
   remote: boxen/puppet-sudo
@@ -101,6 +111,8 @@ GITHUBTARBALL
 DEPENDENCIES
   boxen (= 3.7.0)
   dnsmasq (= 2.0.0)
+  eclipse (>= 0)
+  firefox (>= 0)
   foreman (= 1.2.0)
   gcc (= 2.2.0)
   git (= 2.5.0)
@@ -108,14 +120,15 @@ DEPENDENCIES
   homebrew (= 1.9.5)
   hub (= 1.3.0)
   inifile (= 1.1.1)
+  intellij (>= 0)
+  java (>= 0)
   module_data (= 0.0.3)
   nginx (= 1.4.3)
-  nodejs (= 3.8.1)
   openssl (= 1.0.0)
   phantomjs (= 2.3.0)
   pkgconfig (= 1.0.0)
   repository (= 2.3.0)
-  ruby (= 8.1.4)
   stdlib (= 4.2.1)
   sudo (= 1.0.0)
   xquartz (= 1.2.1)
+
